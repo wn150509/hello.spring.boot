@@ -11,9 +11,4 @@ public class Computer implements Electronic {
     public int getElectronicUse() {
         return 0;
     }
-
-    @Override
-    public void printDescription() {
-
-    }
 }
