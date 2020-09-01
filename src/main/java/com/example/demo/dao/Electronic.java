@@ -2,6 +2,9 @@ package com.example.demo.dao;
 
 public interface Electronic {
     String LED="LED";//常量
+
+    public void main(String[] args);
+
     int getElectronicUse();//抽象方法
     static boolean isEnergyEfficient(String electronicType){
         return electronicType.equals(LED);//静态方法
