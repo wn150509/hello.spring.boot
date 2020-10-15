@@ -1,4 +1,4 @@
-package com.example.demo.test;
+package com.example.demo.bishi;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,9 +98,5 @@ public class HUAWEI {
         for (int[] a:list) {
             System.out.println(a[0]+":"+a[1]);
         }
-//        System.out.println();
     }
-//    public static void main(String[] args) {
-//        StrLen("XSUWHQ");
-//    }
 }

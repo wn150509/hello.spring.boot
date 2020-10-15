@@ -4,7 +4,7 @@ import org.hibernate.event.spi.SaveOrUpdateEvent;
 
 import java.util.*;
 
-public class demo {
+public class demo extends test{
     public static String ss(String s){
         char[] arr=s.toCharArray();//将字符串转为字符数组
         Map<String, Integer> hashMap=new HashMap<>();//新建Hashmap  K:String---V:Integer
@@ -88,4 +88,5 @@ public class demo {
 //        System.out.println(ss);
 //        System.out.println(set.toString());
     }
+
 }

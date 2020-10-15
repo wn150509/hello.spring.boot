@@ -1,5 +1,9 @@
 package com.example.demo.test;
 
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 public class Haoshu {
     public static int[] haoshu(int[] arr,int left,int right){
         if (left<right){
@@ -42,14 +46,25 @@ public class Haoshu {
     }
 
     public static void main(String[] args) {
-        int[]arr={8,5,4,5,7};
-        int a=10;
-        int b;
-        int c;
-        Object o=new Object();
-//        System.out.println(zichuang("11100010"));
-        for (Integer i:haoshu(arr,0,arr.length-1)) {
-            System.out.println(i);
+//        int[]arr={8,5,4,5,7};
+//        int a=10;
+//        int b;
+//        int c;
+//        Object o=new Object();
+////        System.out.println(zichuang("11100010"));
+//        for (Integer i:haoshu(arr,0,arr.length-1)) {
+//            System.out.println(i);
+//        }
+        String s1= new String("dahua");
+        String s2= new String("dahua");
+
+        Set set = new HashSet<>();
+        set.add(s1);
+        set.add(s2);
+        Iterator iterator= set.iterator();
+
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
         }
     }
 }
